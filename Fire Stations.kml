@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns:kml="http://earth.google.com/kml/2.2">
+  <Document id="featureCollection">
+<Style id="defaultStyle">
+  <LineStyle>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>7d8a30c4</color>
+  </PolyStyle>
+</Style>
+  <Folder><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>491 Broadway</value></Data><Data name="phone"><value>617-491-9571</value></Data><Data name="site_name"><value>Fire Headquarters</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.11477947943709,42.37531746388913
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>378 Massachusetts Ave</value></Data><Data name="phone"><value>617-354-9188</value></Data><Data name="site_name"><value>Fire Company 2</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.10011676169859,42.36300867790609
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>175 Cambridge St</value></Data><Data name="phone"><value>617-497-9675</value></Data><Data name="site_name"><value>Fire Company 3</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.07872254809159,42.371194984890145
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>2029 Massachusetts Ave</value></Data><Data name="phone"><value>617-492-2258</value></Data><Data name="site_name"><value>Fire Company 4</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.12171386500825,42.39103089970089
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>1384 Cambridge St</value></Data><Data name="phone"><value>617-354-3666</value></Data><Data name="site_name"><value>Fire Company 5</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.10079511087666,42.37350697922487
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>176 River St</value></Data><Data name="phone"><value>617-497-9460</value></Data><Data name="site_name"><value>Fire Company 6</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.11004176528708,42.36329197243343
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>113 Garden St</value></Data><Data name="phone"><value>617-497-0520</value></Data><Data name="site_name"><value>Fire Company 8</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.1298160452262,42.38420115851307
+    </coordinates></Point>
+    </Placemark><Placemark>
+      <styleUrl>#defaultStyle</styleUrl>
+      
+      <ExtendedData>
+        <Data name="address"><value>167 Lexington Ave</value></Data><Data name="phone"><value>617-864-4195</value></Data><Data name="site_name"><value>Fire Company 9</value></Data>
+      </ExtendedData>
+      <Point><coordinates>
+      -71.14084066627643,42.3800191372973
+    </coordinates></Point>
+    </Placemark></Folder>  </Document>
+  </kml>

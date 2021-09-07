@@ -26,3 +26,56 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r load packages, message=FALSE}
+library(sf)
+library(tidyverse)
+library(ggspatial)
+library(ggthemes)
+```
+```{r}
+FireStations <- st_read("Fire Stations.kml")
+OpenSpace <- st_read("Open Space.shp.zip")
+```
+```{r}
+ggplot() +
+  annotation_map_tile(zoomin = 0, progress = "none", type = "stamenbw")  +
+  labs(caption = "Map tiles by Stamen Design. Data by OpenStreetMap") +
+geom_sf(data = OpenSpace, color = "green") +
+  geom_sf(data = FireStations, shape = 23, color = "firebrick", size = 5)
+```
+
+ ggplot() +
+  geom_sf(data = historic, color = NA, alpha = 0.5,
+          aes(fill = "Historic District")) +
+  geom_sf(data = playgrounds) +
+  geom_sf(data = gardens, color = "green") +
+  scale_fill_manual(values = "blue", name = "")
+
+```{r}
+jpeg("FireStations.jpg", width = 5, height = 3, units = "in", res = 300)
+FireStations_plot
+dev.off()
+
+png("FireStations.png", width = 5, height = 3, units = "in", res = 300)
+FireStations_plot
+dev.off()
+
+pdf("FireStations.pdf", width = 5, height = 3)
+FireStations_plot
+dev.off()
+```
+
+```{r}
+jpeg("OpenSpace.jpg", width = 5, height = 3, units = "in", res = 300)
+OpenSpace_plot
+dev.off()
+
+png("OpenSpace.png", width = 5, height = 3, units = "in", res = 300)
+OpenSpace_plot
+dev.off()
+
+pdf("OpenSpace.pdf", width = 5, height = 3)
+OpenSpace_plot
+dev.off()
+```
+
